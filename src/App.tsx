@@ -11,6 +11,8 @@ import MobileAppsPage from './pages/MobileAppsPage';
 import BusinessAnalyticsPage from './pages/BusinessAnalyticsPage';
 import FaceSitePage from './pages/FaceSitePage';
 import ProductPage from './pages/ProductPage';
+import FaceSiteCaseStudy from './pages/FaceSiteCaseStudy';
+import ScanMeCaseStudy from './pages/ScanMeCaseStudy';
 import ScrollToTop from './utils/ScrollToTop';
 
 function App() {
@@ -52,6 +54,8 @@ function App() {
             <Route path="/business-analytics" element={<BusinessAnalyticsPage />} />
             <Route path="/facesite" element={<FaceSitePage />} />
             <Route path="/product" element={<ProductPage />} />
+            <Route path="/case-study/facesite" element={<FaceSiteCaseStudy />} />
+            <Route path="/case-study/scanme" element={<ScanMeCaseStudy />} />
           </Routes>
         </main>
         <Footer />

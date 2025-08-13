@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assests/bg.png'; // Ensure the path is correct
+import heroImage from '../assets/bg.png'; // Ensure the path is correct
 
 const HeroImage: React.FC = () => {
   return (

@@ -3,8 +3,8 @@ import { Smartphone, BarChart3, Users, Globe } from 'lucide-react';
 import FAQItem from '../components/FAQItem';
 
 // Import local images
-import DigitalMenuImg from '../assests/scanme1.jpg';
-import RestaurantDemoImg from '../assests/scanme2.jpg';
+import DigitalMenuImg from '../assets/scanme1.jpg';
+import RestaurantDemoImg from '../assets/scanme2.jpg';
 
 const ProductPage: React.FC = () => {
   const features = [
